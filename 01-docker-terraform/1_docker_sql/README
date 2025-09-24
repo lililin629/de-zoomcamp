@@ -13,7 +13,6 @@ python ingest_data.py \
   --url="https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz"
 
 ✅ steps in pgAdmin (http://localhost:8080)
-
 Log in with:
 Email: admin@admin.com
 Password: root
@@ -27,7 +26,7 @@ Username: root
 Password: root
 Save → Now you can see the ny_taxi database, schemas, and tables.
 
-✅ Your summary
+✅ summary
 	• docker-compose.yaml = recipe that lists all services (Postgres, pgAdmin, etc.), so instead of running many docker run commands, you just do docker-compose up. ✔️
 	• Containers = little computers (isolated environments) you can run anywhere Docker is available. ✔️
 	• Persistence with volumes = data is mounted outside the container, so it survives container shutdown. ✔️
