@@ -1,0 +1,7 @@
+To save google credential in local machine (only have to do it once)
+# cd ~ && mkdir -p ~/.google/credentials/
+
+To set up airflow each time:
+# docker-compose build
+# docker-compose up airflow-init
+# docker-compose up -d
