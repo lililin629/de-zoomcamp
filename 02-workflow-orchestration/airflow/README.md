@@ -1,8 +1,8 @@
-Pre-requisites
+### Pre-requisites:
 This tutorial assumes that the service account credentials JSON file is named `google_credentials.json` and stored in `$HOME/.google/credentials/.` Copy and rename your credentials file to the required path.
 docker-compose should be at least version v2.x+ and Docker Engine should have at least 5GB of RAM available, ideally 8GB. On Docker Desktop this can be changed in Preferences > Resources.
 
-Setup (full version)
+### Setup (full version)
 1. Create a new airflow subdirectory in your work directory.
 2. Download the official Docker-compose YAML file for the latest Airflow version.
 ```curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.2.3/docker-compose.yaml'``` 
