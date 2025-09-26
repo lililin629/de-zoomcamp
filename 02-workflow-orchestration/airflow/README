@@ -5,7 +5,7 @@ docker-compose should be at least version v2.x+ and Docker Engine should have at
 Setup (full version)
 1. Create a new airflow subdirectory in your work directory.
 2. Download the official Docker-compose YAML file for the latest Airflow version.
-    '''curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.2.3/docker-compose.yaml''''
+    <pre> ```curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.2.3/docker-compose.yaml'``` </pre>
 3. generate a .env file with the appropiate UID with the following command:
     echo -e "AIRFLOW_UID=$(id -u)" > .env
 4. The base Airflow Docker image won't work with GCP, so we need to customize it.
